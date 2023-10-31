@@ -434,7 +434,7 @@
     place-content: center;
     flex-direction: row;
     gap: 10px;
-    height: 30vh;
+    height: 100px;
     width: 100%;
     box-shadow: 0px 1px 10px #af011e;
     border-radius: 20px;

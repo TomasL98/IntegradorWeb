@@ -77,15 +77,17 @@ ul.navbar-list {
   box-shadow: 0px 1px 10px #af011e;
   border-radius: 10px;
   padding: 10px;
+  transition: ease 0.5s;
 }
 
 .navbar-list a:hover {
-  color: rgb(163, 1, 1);
+  color: rgb(247, 117, 117);
 }
 
 main {
   max-width: 1400px;
   padding: 0 1rem;
+  background: #000000b0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +154,7 @@ main {
   font-size: 12px;
   text-align: center;
   font-weight: 500;
+  transition: ease 0.5s;
 }
 
 .hero-btn1 {
@@ -194,6 +197,7 @@ main {
   box-shadow: 0px 1px 10px #af011e;
   border-radius: 10%;
   height: 290px;
+  transition: ease 0.5s;
 }
 
 .hero__img:hover {
@@ -280,6 +284,7 @@ main {
   font-size: 16px;
   position: relative;
   backdrop-filter: blur(15px);
+  transition: ease 0.5s;
 }
 
 .card:hover {
@@ -290,6 +295,7 @@ main {
 .card__img:hover {
   box-shadow: 0px 0.8px 10px #01bebe;
   transform: scale(1.1);
+  transition: ease 0.5s;
 }
 
 .card_1 {
@@ -366,8 +372,9 @@ main {
 }
 
 .item {
-  border-radius: 1rem;
+  border-radius: 8px;
   box-shadow: 0px 1px 10px #af011e;
+  transition: ease 0.5s;
 }
 
 .item:hover {
@@ -494,6 +501,7 @@ main {
   background: #000000ed;
   border-radius: 5px;
   height: 30px;
+  transition: ease 0.5s;
 }
 
 iframe {
